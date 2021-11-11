@@ -5,8 +5,8 @@ export const defauts: string[] = ['src/**']
 
 export default class Core {
   async execute(directory: string) {
-    const jsFiles = await this.getFiles(`${directory}/*.js*`)
-    const tsFiles = await this.getFiles(`${directory}/*.ts*`)
+    const jsFiles = await this.getFiles(`${directory}/**/*.js*`)
+    const tsFiles = await this.getFiles(`${directory}/**/*.ts*`)
 
     const jsCount = jsFiles.length
     const tsCount = tsFiles.length
