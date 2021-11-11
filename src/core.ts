@@ -18,7 +18,8 @@ export default class Core {
       tsFiles,
       jsCount,
       tsCount,
-      percent: (tsCount && jsCount) ? ((tsCount / total) * 100).toFixed(2) : 0,
+      total,
+      percent: (tsCount && jsCount) ? ((tsCount / total) * 100) : 0,
     }
   }
 
