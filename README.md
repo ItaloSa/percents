@@ -1,4 +1,9 @@
-percents
+
+<span style="display:block;text-align:center">
+  <img align="center" src="./docs/logo.png" alt="...">
+</span>
+
+percenTS
 ========
 
 A TypeScript migration status tool
