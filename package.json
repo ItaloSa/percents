@@ -1,7 +1,7 @@
 {
   "name": "percents",
   "description": "A typescript migration status tool",
-  "version": "0.0.0",
+  "version": "0.1.0-0",
   "author": "Italo Sousa @ItaloSa",
   "bin": {
     "percents": "./bin/run"
