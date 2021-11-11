@@ -1,3 +1,11 @@
+# [0.1.0](https://github.com/ItaloSa/percents/compare/0.1.0-0...0.1.0) (2021-11-11)
+
+
+### Bug Fixes
+
+* **core:** Fix files pattern ([e75f81c](https://github.com/ItaloSa/percents/commit/e75f81cf26972b2397d10c5a9dbb83cbf6fb6da1))
+* **core:** Fix wrong percent behaviour ([230368e](https://github.com/ItaloSa/percents/commit/230368e0685855a3929e95767c27abe4289e8200))
+
 # 0.1.0-0 (2021-11-11)
 
 
