@@ -19,7 +19,7 @@ export default class Core {
       jsCount,
       tsCount,
       total,
-      percent: (tsCount && jsCount) ? ((tsCount / total) * 100) : 0,
+      percent: tsCount ? ((tsCount / total) * 100) : 0,
     }
   }
 
