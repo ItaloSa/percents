@@ -1,7 +1,6 @@
 
-<span style="display:block;text-align:center">
-  <img align="center" src="./docs/logo.png" alt="...">
-</span>
+<img src="./docs/logo.png" alt="percents">
+
 
 percenTS
 ========
@@ -13,25 +12,20 @@ A TypeScript migration status tool
 <!-- [![Version](https://img.shields.io/npm/v/percents.svg)](https://npmjs.org/package/percents)
 [![Downloads/week](https://img.shields.io/npm/dw/percents.svg)](https://npmjs.org/package/percents) -->
 
-<!-- toc -->
 * [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
+* [Options](#options)
+### Usage
+
 ```sh-session
 $ npm install -g percents
-$ percents COMMAND
-running command...
-$ percents (-v|--version|version)
-percents/0.1.0 darwin-x64 node-v12.13.0
-$ percents --help [COMMAND]
-USAGE
-  $ percents COMMAND
-...
+$ percents
+% scanning src...
 ```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
 
-<!-- commandsstop -->
+### Options
+
+| Option        | Short | Description                          | Default |
+|---------------|-------|--------------------------------------|---------|
+| --version     | -v    | Prints the current version           | -       |
+| --version     | -h    | Prints the help                      | -       |
+| --path="path" | -p    | Sets the path where will be analyzed | src     |
