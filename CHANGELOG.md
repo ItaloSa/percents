@@ -1,3 +1,5 @@
+# [1.0.0](https://github.com/ItaloSa/percents/compare/0.1.0...1.0.0) (2021-11-19)
+
 # [0.1.0](https://github.com/ItaloSa/percents/compare/0.1.0-0...0.1.0) (2021-11-11)
 
 
