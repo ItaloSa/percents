@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import * as glob from 'glob'
+import glob from 'glob'
 
 export const defauts: string[] = ['src/**']
 
